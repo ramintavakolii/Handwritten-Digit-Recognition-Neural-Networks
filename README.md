@@ -7,7 +7,7 @@ In this exercise, we will use a neural network to recognize two handwritten digi
 The data set is a subset of the MNIST data set used for training the model. The subset of the dataset is as follows:
 
 <p align="center">
-  <img src="images/image1.PNG" alt="MNIST Subset" width="400">
+  <img src="images/image1.png" alt="MNIST Subset" width="400">
 </p>
 
 ## Model Representation
@@ -18,7 +18,7 @@ The neural network used in this assignment is shown in the figure below. It has 
 - Since the images are of size \(20 \times 20\), this gives us 400 inputs.
 
 <p align="center">
-  <img src="images/image2.PNG" alt="Neural Network Model" width="600">
+  <img src="images/image2.png" alt="Neural Network Model" width="600">
 </p>
 
 ## Implementation Details
@@ -28,7 +28,7 @@ We build our own dense layer using NumPy. This can then be utilized to build a m
 We will see predictions from both the NumPy model and the TensorFlow model.
 
 <p align="center">
-  <img src="images/image3.PNG" alt="Model Comparison" width="600">
+  <img src="images/image3.png" alt="Model Comparison" width="600">
 </p>
 
 ## License
